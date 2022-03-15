@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bird"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SAMDI"
+            android:textColor="#FFD659"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:id="@+id/ender_3_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    android:background="#FFD659"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ender3" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

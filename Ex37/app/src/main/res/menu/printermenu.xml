@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="프린터 종류"/>
+    <item
+        android:title="ender-3">
+    </item>
+    <item
+        android:title="ender-5">
+    </item>
+    <item
+        android:title="cubi">
+    </item>
+</menu>
